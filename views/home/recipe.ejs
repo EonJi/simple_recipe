@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+     <head>
+    <% include ../partials/head %>
+         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+         <style>
+    
+             @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+             
+             body>p{
+                 font-family: 'Indie Flower', cursive;
+                 font-size:60px;
+             }
+
+             a>p{
+                 font-size:30px;
+                 font-weight:bold;
+                 text-align:center;
+                 font-family: 'Nanum Pen Script', cursive;
+             }
+             
+             a:link{
+                 text-decoration:none;
+             }
+             a{
+                 color:darkcyan;
+             }
+             
+         </style>
+         
+  </head>
+  <body>
+    <% include ../partials/nav %>
+
+        <p style="text-align: center;"><img src="pict/도구.png"></p>
+        <p style="text-align: center; color:darkcyan;">Recipes</p>
+
+        <hr> <br>
+
+        <div class="recipe_list">
+          <div>
+            <div style="width:33%;height:auto;float:left" class="list_img" onclick="move()">
+             <a href="/duck">
+                 <script type = "text/javascript">
+                     function move(){
+                         location.href = "/duck";
+                     } </script> 
+                 <img src="pict/떡볶이.png" style="margin-left:auto;margin-right:auto;display:block;">
+                 <p>떡볶이</p>
+                </a>
+            </div>
+          </div>
+
+          <div>
+            <div style="width:33%;height:auto;float:left" class="list_img" onclick="move2()">
+                <a href = "/jae">
+                    <script type = "text/javascript">
+                        function move2(){
+                            location.href = "/duck";
+                        } </script> 
+                    <img src="pict/제육볶음.png" style="margin-left:auto;margin-right:auto;display:block;">
+                    <p>제육볶음</p>
+                </a>
+            </div>
+          </div>
+
+          <div>
+            <div style="width:33%;height:auto;float:left" class="list_img" onclick="move3()">
+                <a href = "/youboo">
+                <script type = "text/javascript">
+                    function move3(){
+                        location.href = "/youboo";
+                    } </script>
+                    <img src="pict/유부초밥.png" style="margin-left:auto;margin-right:auto;display:block;">
+                    <p>유부초밥</p>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div style="width:33%;height:auto;float:left" class="list_img" onclick="move4()">
+              <a href = "/kimchi">
+                <script type = "text/javascript">
+                function move4(){
+                    location.href = "/kimchi";
+                } </script> 
+            <img src="pict/김치볶음밥.png" style="margin-left:auto;margin-right:auto;display:block;">
+            <p>김치볶음밥</p>
+              </a>
+          </div>
+        </div>
+      
+
+      <div>
+        <div style="width:33%;height:auto;float:left" class="list_img" onclick="move5()">
+              <a href = "/kimgook">
+                  <script type = "text/javascript">
+                      function move5(){
+                          location.href = "/kimgook";
+                      } </script> 
+                  <img src="pict/김치찌게.png" style="margin-left:auto;margin-right:auto;display:block;">
+                  <p>김치찌게</p>
+            </a>
+        </div>
+      </div>
+    
+
+    <div>
+      <div style="width:33%;height:auto;float:left" class="list_img" onclick="move6()">
+            <a href = "/denjang">
+                <script type = "text/javascript">
+                    function move6(){
+                        location.href = "/denjang";
+                    } </script> 
+                <img src="pict/된장찌게.png" style="margin-left:auto;margin-right:auto;display:block;">
+                <p>된장찌게</p>
+          </a>
+      </div>
+    </div>
+  
+
+  <div>
+    <div style="width:33%;height:auto;float:left" class="list_img" onclick="move7()">
+        <a href = "/mi">
+                <script type = "text/javascript">
+                function move7(){
+                    location.href = "/mi";
+                } </script> 
+      <img src="pict/미역국.png" style="margin-left:auto;margin-right:auto;display:block;">
+      <p>미역국</p>
+        </a>
+    </div>
+  </div>
+
+
+<div>
+  <div style="width:33%;height:auto;float:left" class="list_img" onclick="move8()">
+        <a href = "/ramen">
+                <script type = "text/javascript">
+                function move8(){
+                    location.href = "/ramen";
+                } </script> 
+    <img src="pict/라면.png" style="margin-left:auto;margin-right:auto;display:block;">
+    <p>라면</p>
+      </a>
+  </div>
+</div>
+
+
+<div>
+  <div style="width:33%;height:auto;float:left" class="list_img" onclick="move9()">
+        <a href = "/kong">
+                <script type = "text/javascript">
+                function move9(){
+                    location.href = "/kong";
+                } </script> 
+   
+    <img src="pict/콩나물국.png" style="margin-left:auto;margin-right:auto;display:block;">
+    <p>콩나물 국</p>
+      </a>
+  </div>
+</div>
+
+
+<div>
+  <div style="width:33%;height:auto;float:left" class="list_img" onclick="move10()">
+        <a href = "/dack">
+                <script type = "text/javascript">
+                function move10(){
+                    location.href = "/dack";
+                } </script> 
+    <img src="pict/닭볶음탕.png" style="margin-left:auto;margin-right:auto;display:block;">
+    <p>닭볶음탕</p>
+      </a>
+  </div>
+</div>
+
+
+<div>
+  <div style="width:33%;height:auto;float:left" class="list_img" onclick="move11()">
+        <a href = "/kimbob">
+                <script type = "text/javascript">
+                function move11(){
+                    location.href = "/kimbob";
+                } </script> 
+    
+    <img src="pict/김밥.png" style="margin-left:auto;margin-right:auto;display:block;">
+    <p>김밥</p>
+      </a>
+  </div>
+</div>
+
+
+<div>
+  <div style="width:33%;height:auto;float:left" class="list_img" onclick="move12()">
+        <a href = "/gan">
+                <script type = "text/javascript">
+                function move12(){
+                    location.href = "/gan";
+                } </script> 
+    <img src="pict/간장계란밥.png" style="margin-left:auto;margin-right:auto;display:block;">
+    <p>간장계란밥</p>
+      </a>
+  </div>
+</div>
+
+
+    </body>
+</html>
